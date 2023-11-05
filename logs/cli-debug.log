@@ -1,0 +1,279 @@
+2023-11-02 00:10:10 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Levels = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:10:20 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Citizens = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:10:47 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Citizens = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:09 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Citizens = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:16 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Citizens = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:26 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Reports = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:37 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Responses = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:45 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Officers = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:20:24 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Reports = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:20:29 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Reports = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:20:38 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Responses = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:20:46 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Officers = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-03 02:13:28 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Responses = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-05 10:30:48 notice: 4.5.0 - Dynamic properties will be removed in PHP 8.2. Add `public $Reports = null;` to your class definition.
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line: 493
+You can disable all deprecation warnings by setting `Error.errorLevel` to `E_ALL & ~E_USER_DEPRECATED`. Adding `vendor/cakephp/bake/src/Command/TestCommand.php` to `Error.ignoredDeprecationPaths` in your `config/app.php` config will mute deprecations from that file only.
+Trace:
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Core\functions.php, line 300
+C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Datasource\ModelAwareTrait.php, line 124
+Cake\Controller\Controller->loadModel() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 493
+Bake\Command\TestCommand->_processController() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 452
+Bake\Command\TestCommand->generateFixtureList() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 258
+Bake\Command\TestCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TestCommand.php, line 132
+Bake\Command\TestCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 207
+Bake\Command\ControllerCommand->bakeTest() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 154
+Bake\Command\ControllerCommand->bake() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\ControllerCommand.php, line 64
+Bake\Command\ControllerCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+

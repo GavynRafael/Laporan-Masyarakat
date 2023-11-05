@@ -1,0 +1,278 @@
+2023-11-02 00:10:20 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_f4f142805ad3199f9fc5a76eece21483dd5c2c96edc0a754a94047f74199d5e8->doDisplay() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 394
+Twig\Template->displayWithErrorHandling() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 367
+Twig\Template->display() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 379
+Twig\Template->render() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Twig\TemplateWrapper->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\View\BakeView->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:10:20 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php on line 1685
+Stack Trace:
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php:1685
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\latihan-ukk\bin\cake.php:12
+- [main]:
+
+2023-11-02 00:11:01 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_f4f142805ad3199f9fc5a76eece21483dd5c2c96edc0a754a94047f74199d5e8->doDisplay() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 394
+Twig\Template->displayWithErrorHandling() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 367
+Twig\Template->display() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 379
+Twig\Template->render() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Twig\TemplateWrapper->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\View\BakeView->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:01 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php on line 1685
+Stack Trace:
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php:1685
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\latihan-ukk\bin\cake.php:12
+- [main]:
+
+2023-11-02 00:11:12 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_f4f142805ad3199f9fc5a76eece21483dd5c2c96edc0a754a94047f74199d5e8->doDisplay() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 394
+Twig\Template->displayWithErrorHandling() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 367
+Twig\Template->display() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 379
+Twig\Template->render() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Twig\TemplateWrapper->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\View\BakeView->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:12 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php on line 1685
+Stack Trace:
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php:1685
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\latihan-ukk\bin\cake.php:12
+- [main]:
+
+2023-11-02 00:11:16 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_f4f142805ad3199f9fc5a76eece21483dd5c2c96edc0a754a94047f74199d5e8->doDisplay() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 394
+Twig\Template->displayWithErrorHandling() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 367
+Twig\Template->display() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 379
+Twig\Template->render() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Twig\TemplateWrapper->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\View\BakeView->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:16 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php on line 1685
+Stack Trace:
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php:1685
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\latihan-ukk\bin\cake.php:12
+- [main]:
+
+2023-11-02 00:11:26 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_f4f142805ad3199f9fc5a76eece21483dd5c2c96edc0a754a94047f74199d5e8->doDisplay() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 394
+Twig\Template->displayWithErrorHandling() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 367
+Twig\Template->display() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 379
+Twig\Template->render() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Twig\TemplateWrapper->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\View\BakeView->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:26 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php on line 1685
+Stack Trace:
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php:1685
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\latihan-ukk\bin\cake.php:12
+- [main]:
+
+2023-11-02 00:11:37 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_f4f142805ad3199f9fc5a76eece21483dd5c2c96edc0a754a94047f74199d5e8->doDisplay() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 394
+Twig\Template->displayWithErrorHandling() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 367
+Twig\Template->display() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 379
+Twig\Template->render() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Twig\TemplateWrapper->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\View\BakeView->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:37 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php on line 1685
+Stack Trace:
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php:1685
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\latihan-ukk\bin\cake.php:12
+- [main]:
+
+2023-11-02 00:11:45 warning: Undefined array key "details"
+Trace:
+__TwigTemplate_f4f142805ad3199f9fc5a76eece21483dd5c2c96edc0a754a94047f74199d5e8->doDisplay() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 394
+Twig\Template->displayWithErrorHandling() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 367
+Twig\Template->display() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php, line 379
+Twig\Template->render() C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php, line 40
+Twig\TemplateWrapper->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php, line 301
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php, line 1179
+Cake\View\View->_render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php, line 85
+Bake\View\BakeView->render() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 407
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 149
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php, line 115
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 190
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 334
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 172
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\latihan-ukk\bin\cake.php, line 12
+[main]
+
+2023-11-02 00:11:45 error: [TypeError] array_filter(): Argument #2 ($callback) must be a valid callback, no array or string given in C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php on line 1685
+Stack Trace:
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Extension\CoreExtension.php:1685
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Environment.php(361) : eval()'d code:116
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:394
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:367
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\Template.php:379
+- C:\xampp\htdocs\latihan-ukk\vendor\twig\twig\src\TemplateWrapper.php:40
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\twig-view\src\View\TwigView.php:301
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\View\View.php:1179
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\View\BakeView.php:85
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Utility\TemplateRenderer.php:101
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:407
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\TemplateCommand.php:149
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\bake\src\Command\AllCommand.php:115
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\BaseCommand.php:190
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:334
+- C:\xampp\htdocs\latihan-ukk\vendor\cakephp\cakephp\src\Console\CommandRunner.php:172
+- C:\xampp\htdocs\latihan-ukk\bin\cake.php:12
+- [main]:
+
